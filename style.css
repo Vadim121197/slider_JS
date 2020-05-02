@@ -1,7 +1,14 @@
+body{
+    display: grid;
+
+}
 .mySlider{
     display: grid;
     grid-template-columns:0.5fr 5fr 0.5fr;
     height: 10vh;
+}
+.second{
+    margin-top:50vh;
 }
 button{
     height: 2vh;
@@ -16,7 +23,7 @@ button{
     width: 100%;
     height: 50vh;
 }
-h1{
+.first h1{
     position: absolute;
     margin: 0;
     top: 45vh;
@@ -26,6 +33,8 @@ h1{
     color: aliceblue;
     transform: translate(-50%, -50%)
 }
+
+
 
 .prevButton{
     margin : auto 10px auto auto;
