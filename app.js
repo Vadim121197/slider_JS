@@ -1,5 +1,4 @@
-//create object  - slider and start slider
-
-const sliderFirst = sliderFactory.createSlider().start('first');
-const sliderSecond = sliderFactory.createSlider().start('second');
+// create object  - slider and start slider
+const sliderFirst = new Slider().start('first');
+const sliderSecond = new Slider().start('second');
 
